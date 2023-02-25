@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
+* {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navMenu {
+	display:flex;
+	justify-content:center;
+	background-color: #ddd;
+	width: 100%;
+	height: 32.9%;
+}
+
+.nav{
+	display:flex;
+	color:black;
+	padding:5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content:space-around;
+	background-color: #ddd;
+	text-align:center;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav:hover{
+	background-color: black;
+	color: #ddd;
+}
+
+.goto{
+	color:black;
+	padding:5px;
+	/*margin-left: 10%;*/
+	background-color: #C19D53;
+	width:150px;
+	height:35px;
+	position:absolute;
+	text-align:center;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	bottom:0%;
+	right:5%;
+}
+
+.goto:hover{
+	padding:5px;
+	background-color: black;
+	color: #C19D53;
+	width:150px;
+	height:35px;
+	position:absolute;
+	text-align:center;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	bottom:0%;
+	right:5%;
+}
+
+.starter{
+	position:relative;
+	width:100%;
+	height:600px;
+	background-image: url('starterBG.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-size: 100%;
+}
+
+.title{
+	position:absolute;
+	text-align: left;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 70px;
+	padding-top: 70px;
+	width:90%;
+	bottom:0%;
+	left:10%;
+}
+
+.logo {
+	position: absolute;
+	width: 30%;
+	padding-right: 5px;
+}
+
+.lBox {
+/*	display:flex;
+	justify-content:center;*/
+	position:relative;
+	width:75%;
+	height:1000px;
+	left:12.5%;
+}
+
+.linkT {
+	/*color: white;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
+
+.link {
+	position:absolute;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	text-align: right;
+	width:65%;
+	height:10%;
+	padding:10px;
+	background-color: #C19D53;
+	left:40%;
+}
+
+.linkPic {
+	left:0px;
+	position:absolute;
+	height:100%;
+}
+
+.linkInfo {
+	/*color: white;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	position: absolute;
+	left: 60%;
+	top: 25%;
+	width: 45%;
+	height: 200px;
+}
+
+.linkB {
+	display:flex;
+	justify-content:center;
+	position:relative;
+	width:100%;
+	height:40%;
+}
+
+.cuisineB{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	position:relative;
+	width:100%;
+	  margin: 0px;
+  padding: 0px;
+	background-color: white;
+}
+
+.cbox{
+	display:flex;
+	position: relative;
+	width:430px;
+	height:430px;
+	font-size: 36px;
+	background-size: cover;
+	color:transparent;
+	margin:18px;
+}
+
+.cbox:hover{
+	color:black;
+}
+
+.cuisineLu{
+	background-image: url("lu.jpg");
+}
+
+.cuisineLu:hover{
+	background-image: url("luBlur.jpeg");
+}
+
+.cuisineCh{
+	background-image: url("chuan.jpeg");
+}
+
+.cuisineCh:hover{
+	background-image: url("chuanBlur.jpeg");
+}
+
+.cuisineYue{
+	background-image: url("yue.jpeg");
+}
+
+.cuisineYue:hover{
+	background-image: url("yueBlur.jpeg");
+}
+
+.cuisineHy{
+	background-image: url("huaiyang.jpeg");
+}
+
+.cuisineHy:hover{
+	background-image: url("huaiyangBlur.jpeg");
+}
+
+.cuisineHui{
+	background-image: url("hui.jpeg");
+}
+
+.cuisineHui:hover{
+	background-image: url("huiBlur.jpeg");}
+
+.cuisineMin{
+	background-image: url("min.jpeg");
+}
+
+.cuisineMin:hover{
+	background-image: url("minBlur.jpeg");
+}
+
+.cuisineX{
+	background-image: url("xiang.jpeg");
+}
+
+.cuisineX:hover{
+	background-image: url("xiangBlur.jpeg");
+}
+
+.cuisineZj{
+	background-image: url("zj.jpeg");
+}
+
+.cuisineZj:hover{
+	background-image: url("zjBlur.jpeg");
+}
+
+.cuisineT{
+	margin: 0px;
+	top:4%;
+	position: absolute;
+	width: 100%;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 1em;
+	text-align: center;
+}
+
+.cuisineBG{
+	display:flex;
+	justify-content:center;
+	position:absolute;
+	text-align: right;
+	padding-right: 18px;
+	width:80%;
+	height:80%;
+	margin-top:15%;
+	background-color: #C19D53;
+}
+
+.cuisineText{
+	margin: 0px;
+	left: 5%;
+	top:28%;
+	position: absolute;
+	width: 90%;
+	height:70%;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+}
+
+.cuisineDes{
+	padding-left:100px;
+	padding-right:100px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.otherDes{
+	position:relative;
+	width:100%;
+	height:80%;
+	padding-left:100px;
+	padding-right:100px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.otherBox{
+	width:90%;
+	left:5%;
+	position:relative;
+}
+
+.otherMain{
+	display:flex;
+	flex-direction:row;
+	align-content:center;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:70%;
+	position:relative;
+}
+
+.otherTitle{
+	font-size: 32px;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px;
+	width: 100%;
+	background-color: #C19D53;
+}
+
+.otherText{
+	font-size: 20px;
+}
+
+.otherFact{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	width:20%;
+	position:relative;
+}
+
+.picCon{
+	display:flex;
+	justify-content:center;
+	width:100%;
+}
+
+.otherPic{
+	width:50%;
+}
+
+.regCon{
+	display:flex;
+	justify-content:space-between;
+}
